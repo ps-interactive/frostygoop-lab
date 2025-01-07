@@ -1,8 +1,8 @@
 PROGRAM TrafficLight
   VAR
-    Redlight AT %QX0.0 : BOOL;
-    Orangelight AT %QX0.1 : BOOL;
-    Greenlight AT %QX0.2 : BOOL;
+    Redlight AT %QW0.0 : BOOL;
+    Orangelight AT %QW0.1 : BOOL;
+    Greenlight AT %QW0.2 : BOOL;
   END_VAR
   VAR
     TON0 : TON;
